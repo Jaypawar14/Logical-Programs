@@ -10,7 +10,7 @@ public class Fibonaccisseries {
 		
 		int a=-1,b=1,c;
 		
-		for(int i=1;i<=10;i++) {
+		for(int i=1;i<=15;i++) {
 			
 			c=a+b;		// c=-1+1 =0    1	
 			System.out.print(" "+c);  //0 1

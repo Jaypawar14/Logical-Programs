@@ -6,7 +6,7 @@ public class ArmstrongNumberUserInput {
 
 	public static void main(String[] args) {
 
-		System.out.println("New Created");
+
 		int P, Sum, Rem;
 		// 122 - 1^3 =1 ,2^3 =8 ,2^3 =8 ===>17 - not Armstrong number
 		// 153 - 1^1 =1, 5^3 =125 ,3^3 = 27 --> 153 Armstrong number
