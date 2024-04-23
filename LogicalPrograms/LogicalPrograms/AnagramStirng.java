@@ -19,6 +19,7 @@ public class AnagramStirng {
 		Arrays.sort(arr2);
 		
 		System.out.println(Arrays.equals(arr1, arr2));
+		//System.out.println(arr1);
 
 	}
 

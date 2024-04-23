@@ -8,11 +8,13 @@ public class LargestNumber {
 
 		int arr[] = { 3, 5, 878, 333, 74 };
 
-		//System.out.println(arr.length);
+		// System.out.println(arr.length);
 		int maximum = arr[0]; // 33
-		
-        int len =arr.length;
-        
+
+		int min = arr[0];
+
+		int len = arr.length;
+
 		// 0<5
 		// 1<5
 		// 2<5
@@ -21,16 +23,21 @@ public class LargestNumber {
 		for (int i = 0; i < arr.length; i++) {
 
 			if (arr[i] > maximum) {
-			
+
 				maximum = arr[i];
 			}
 
+			if (arr[i] <min) {
+
+				min = arr[i];
+			}
 		}
 		System.out.println("lagest number in given array is -->" + maximum);
-		
-        Arrays.sort(arr);
 
-        System.out.println("Second largest number in given array -->"+arr[len-2]);
+		Arrays.sort(arr);
+
+		System.out.println("Second largest number in given array -->" + arr[len - 2]);
+		System.out.println(min);
 
 	}
 

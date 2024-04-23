@@ -6,12 +6,15 @@ public class RemoveSpicalChar {
 		
         String inputString = "Ranjeet123Kendre";
         
-        String resultString = inputString.replaceAll("[^a-zA-Z]", "");
+     //   String resultString = inputString.replaceAll("[^a-zA-Z]", "");
 
+       String resultString =  inputString.replaceAll("[^a-zA-Z]", "");
+        
         System.out.println("Original String: " + inputString);
         
         System.out.println("String after removing special characters: " + resultString);
     
+        main5(args);
 		
 	}
 	

@@ -15,7 +15,7 @@ public class RemovDuplicatechar {
 		
 		for(int i=0 ;i<str.length() ;i++) {
 			
-			Character c =str.charAt(i);
+			Character  c =str.charAt(i);
 
 			if(!se.contains(c)) {
 				se.add(c);
@@ -23,6 +23,8 @@ public class RemovDuplicatechar {
 			}
 		}
 		System.out.println("After remvoing duplicate -->"+Sb);
+		System.out.println(se);
+		
 	}
 
 }

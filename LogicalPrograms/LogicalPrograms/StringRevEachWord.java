@@ -23,7 +23,8 @@ public class StringRevEachWord {
 			}
 			RevS =RevS+StringWord+" ";
 			}
-		System.out.println(RevS);
+		System.out.println(RevS+"New");
+	
 
 	
 		for(int i=RevS.length()-1 ;i>=0 ;i-- ) {
@@ -32,5 +33,6 @@ public class StringRevEachWord {
 		}
 		System.out.println(Rev1.trim());
 		}
-
 }
+
+
